@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./networth.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <h1> Cashflow Calculator </h1> <br />
+        <h3>Investment Details ( Value in Lakhs )</h3> </div> <br/>
+        <label for="fd">Fixed Deposites : </label>
+        <input
+          type="number"
+          id="fd"
+          name="fd"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br />
+        <label for="rd">Recurring Deposit : </label>
+        <input
+          type="number"
+          id="rd"
+          name="rd"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br />
+        <label for="li">Life Insurance : </label>
+        <input
+          type="number"
+          id="li"
+          name="li"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br />
+        <label for="ihp">Individual Health Plan : </label>
+        <input
+          type="number"
+          id="ihp"
+          name="ihp"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br />
+        <label for="mfe">Mutual Funds - Equity : </label>
+        <input
+          type="number"
+          id="mfe"
+          name="mfe"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br />
+        <label for="mfd">Mutual Funds - Debt : </label>
+        <input
+          type="number"
+          id="mfd"
+          name="mfd"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br />
+        <label for="sh">Other (if any) Share : </label>
+        <input
+          type="number"
+          id="sh"
+          name="name"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br />
+        <label for="pf">PF : </label>
+        <input
+          type="number"
+          id="pf"
+          name="pf"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br />
+        <label for="ppt">Property : </label>
+        <input
+          type="number"
+          id="ppt"
+          name="ppt"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br />
+        <label for="ppf">PPF : </label>
+        <input
+          type="number"
+          id="ppf"
+          name="ppf"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br />
+        <label for="gl">Gold : </label>
+        <input
+          type="number"
+          id="gl"
+          name="gl"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br />
+        <label for="sv">Savings : </label>
+        <input
+          type="number"
+          id="sv"
+          name="sv"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br/>
+  
+    <br/>
+        <h3>Loan Details</h3> <br/>
+
+        <label for="hl">Home Loan : </label>
+        <input
+          type="number"
+          id="hl"
+          name="hl"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br />
+        <label for="pl">Personal Loan : </label>
+        <input
+          type="number"
+          id="pl"
+          name="pl"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br/>
+        <label for="ot">Other : </label>
+        <input
+          type="number"
+          id="ot"
+          name="ot"
+          placeholder="Amount in Lakhs"
+          value="0"
+        /><br/>
+
+
+        <h3>
+          Enter Time period in Years
+        </h3>
+        <label for="years">No of years : </label>
+        <input
+          type="number"
+          id="years"
+          name="years"
+          placeholder="No. of Years"
+          value="0"
+        /><br/>
+  
+
+        <p>
+          <button onclick="networth()">Calculate Networth</button>
+
+        </p>
+        <p>
+          <p>
+            <h4>Total Interest Earned</h4>
+            <div id="totalInterest" name="totalInterest">
+
+            </div>
+          </p>
+          <p>
+            <h4>Final Amount</h4>
+          <div id="networth" name="networth">
+
+          </div>
+        
+          </p>
+        </p>
+
+
+        
+
+    </div>
+  </body>
+</html>
