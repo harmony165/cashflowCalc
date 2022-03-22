@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./index.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <h1> Inflation Calculator </h1> <br />
+       <label for="mexp">Monthly Expenditure - Present : </label>
+        <input
+          type="number"
+          id="mexp"
+          name="mexp"
+          placeholder="Amount in lakhs"
+          value="0"
+        /><br />
+        <label for="mexp">Annual Expenditure  : </label>
+        <input
+          type="number"
+          id="aexp"
+          name="aexp"
+          placeholder="Amount in lakhs"
+          value="0"
+        /><br />
+        <label for="inf">Inflation : </label>
+        <input
+          type="number"
+          id="inf"
+          name="inf"
+          placeholder="Amount in lakhs"
+          value="0"
+        /><br />
+        <label for="age">Your present age : </label>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          placeholder="Years"
+          value="0"
+        /><br />
+        <label for="tar">Retirement age : </label>
+        <input
+          type="number"
+          id="tar"
+          name="tar"
+          placeholder="Years"
+          value="0"
+        /><br />
+        
+
+        <p>
+          <button onclick="inflation()">Calculate Inflation Funds</button>
+
+        </p>
+        <p>
+          <p>
+            <h4>Years to retirement</h4>
+            <div id="rage" name="rage">
+
+            </div>
+          </p>
+          <p>
+            <h4>Monthly Expenses @ Retirement</h4>
+          <div id="mexpr" name="mexpr">
+
+          </div>
+        
+          </p>
+          
+        </p>
+
+
+        
+
+    </div>
+  </body>
+</html>
